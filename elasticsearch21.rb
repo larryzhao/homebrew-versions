@@ -1,8 +1,8 @@
 class Elasticsearch21 < Formula
   desc "Distributed search & analytics engine"
   homepage "https://www.elastic.co/products/elasticsearch"
-  url "https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.1.0/elasticsearch-2.2.2.tar.gz"
-  sha256 "c706db594f1feb5051d90697c6c412eadd60e00a9ec3b4f345a122801183af69"
+  url "https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.1.0/elasticsearch-2.1.0.tar.gz"
+  sha256 "8a4e85bcb506daa369651506af1cbc55c09fd7ff387d111142ae14d0a85d4d14"
 
   conflicts_with "elasticsearch", :because => "Different versions of same formula"
 
